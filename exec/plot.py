@@ -20,6 +20,6 @@ with open("./exec/data.json") as json_file:
 
 # Creating graphic representation from the data
 plt.scatter(x, y, s=(72./fig.dpi)**2)
-fig.savefig("./exec/matplotliab.png")
+fig.savefig("./exec/sierpinski.png")
 
 os.remove("./exec/data.json")
